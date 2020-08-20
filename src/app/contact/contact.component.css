@@ -11,8 +11,23 @@
   opacity: 0.8;
 }
 
-.form {
-  padding: 10px;
-  margin-right: 50px;
-  border: none;
+.content {
+  width: 100%;
+  color: #ffffff;
+  padding: 40px;
 }
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form-control {
+  opacity: 0.6;
+  display: inline-flex;
+}
+
+.button {
+  text-align: right;
+}
+

@@ -1,7 +1,8 @@
-<nav class="navbar navbar-expand-md navbar-light bg-transparent">
+<!-- HEADER SECTION -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-band" routerLink="/"><h4><strong class="navbar_text">Paramanand</strong>Kumar</h4></a>
-    <button class="navbar-toggler"
+    <a class="navbar-band" routerLink="/"><h4>Paramanand Kumar</h4></a>
+    <button class="navbar-toggler custom-toggler"
     data-toggle="collapse"
     data-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
@@ -10,31 +11,31 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="setTitle( 'Paramanand' )">
           <a class="nav-link fas fa-home"
-          routerLink="/"><strong class="navbar_text"> Home </strong></a>
+          routerLink="/"> Home </a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | About Me' )" >
           <a class="nav-link fas fa-info"
-          routerLink="/about"><strong class="navbar_text"> About Me </strong></a>
+          routerLink="/about"> About Me </a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Eduction' )" >
           <a class="nav-link fas fa-university"
-          routerLink="/education"><strong class="navbar_text"> Education </strong></a>
+          routerLink="/education"> Education </a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Resume' )">
           <a class="nav-link fas fa-graduation-cap"
-          routerLink="/resume"><strong class="navbar_text"> Resume </strong></a>
+          routerLink="/resume"> Resume </a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Gallery' )">
           <a class="nav-link fas fa-camera"
-          routerLink="/gallery"><strong class="navbar_text"> Gallery </strong></a>
+          routerLink="/gallery"> Gallery </a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Map' )">
           <a class="nav-link fas fa-map-marker-alt"
-          routerLink="/map"><strong class="navbar_text"> Map </strong></a>
+          routerLink="/map"> Map </a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Contact' )">
           <a class="nav-link fas fa-id-card-alt"
-          routerLink="/contact"><strong class="navbar_text"> Contact </strong></a>
+          routerLink="/contact"> Contact </a>
         </li>
       </ul>
     </div>

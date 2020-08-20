@@ -1,24 +1,32 @@
 /* HWEADER */
-@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 
 .navbar-band {
-  color: black !important;
+  color: #ffffff;
+  font-family: 'Crete Round', serif;
 }
 .navbar-band:hover {
   text-decoration-line: none;
-  color: black;
 }
 
-.navbar {
-  color: black;
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .active > .nav-link  {
+  color: #FBC02D;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #01579B;
+}
+
+.navbar-dark .navbar-nav .nav-link {
   padding: 15px;
 }
 
-strong.navbar_text {
-  font-family: 'Ramabhadra', sans-serif;
+a.navbar-link {
+  font-family: 'Crete Round', serif;
 }
 
 .navbar-collapse {

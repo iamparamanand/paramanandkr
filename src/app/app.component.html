@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-band" href="#"><h4>Paramanand<span>Kumar</span></h4></a>
+    <a class="navbar-band" routerLink="/"><h4><strong class="navbar_text">Paramanand</strong>Kumar</h4></a>
     <button class="navbar-toggler"
     data-toggle="collapse"
     data-target="#navbarNav">
@@ -10,31 +10,31 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" (click)="setTitle( 'Paramanand' )">
           <a class="nav-link fas fa-home"
-          routerLink="/"> Home </a>
+          routerLink="/"><strong class="navbar_text"> Home </strong></a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | About Me' )" >
           <a class="nav-link fas fa-info"
-          routerLink="/about"> About Me </a>
+          routerLink="/about"><strong class="navbar_text"> About Me </strong></a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Eduction' )" >
           <a class="nav-link fas fa-university"
-          routerLink="/education"> Education </a>
+          routerLink="/education"><strong class="navbar_text"> Education </strong></a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Resume' )">
-          <a class="nav-link fas fa-folder"
-          routerLink="/resume"> Resume </a>
+          <a class="nav-link fas fa-graduation-cap"
+          routerLink="/resume"><strong class="navbar_text"> Resume </strong></a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Gallery' )">
           <a class="nav-link fas fa-camera"
-          routerLink="/gallery"> Gallery </a>
+          routerLink="/gallery"><strong class="navbar_text"> Gallery </strong></a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Map' )">
           <a class="nav-link fas fa-map-marker-alt"
-          routerLink="/map"> Map </a>
+          routerLink="/map"><strong class="navbar_text"> Map </strong></a>
         </li>
         <li class="nav-item" routerLinkActive="active" (click)="setTitle( 'Paramanand | Contact' )">
           <a class="nav-link fas fa-id-card-alt"
-          routerLink="/contact"> Contact </a>
+          routerLink="/contact"><strong class="navbar_text"> Contact </strong></a>
         </li>
       </ul>
     </div>
@@ -42,14 +42,14 @@
 </nav>
 
 <!-- ROUTING SECTION -->
-
-<router-outlet></router-outlet>
-
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
 <!-- FOOTER SECTION -->
-<div id="footer">
+<footer class="footer">
   <div class="container footer">
     <div class="center">
-      <h3>Lets talk! <strong>support@abcd.in</strong></h3>
+      <h3>Lets talk! <strong>abcd@gmail.com</strong></h3>
     </div>
     <div>
       <button class="fab fa-linkedin-in"></button>
@@ -62,5 +62,5 @@
       <h6>&copy;Copyright. All rights reserved.</h6>
     </div>
   </div>
-</div>
+</footer>
 

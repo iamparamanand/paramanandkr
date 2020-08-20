@@ -1,47 +1,50 @@
-a.navbar-band:hover {
-  text-decoration: none;
+/* HWEADER */
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+.navbar-band {
+  color: black !important;
+}
+.navbar-band:hover {
+  text-decoration-line: none;
+  color: black;
+}
+
+.navbar {
+  color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(20, 120, 160, 0.9)
+strong.navbar_text {
+  font-family: 'Ramabhadra', sans-serif;
 }
 
-/* .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(248, 91, 28, 0.8)
-} */
-
-.navbar-light .navbar-nav .active > .nav-link {
-  color: rgba(248, 91, 28, 0.8)
+.navbar-collapse {
+  text-align: center;
 }
 
-/*MEDIA Format*/
-
-@media screen and (max-width: 768px) {
-  .navbar-light .navbar-nav {
-    text-align: center;
-  }
-  li.nav-item {
-    padding: 10px 0px 10px 0px;
-  }
+a.nav-link {
+  padding: 16px;
 }
 
+/* ROUTER SECTION */
+.content {
+  min-height: 69.7%;
+}
 
 /* FOOTER SECTION CSS */
-#footer{
-  background-image: url("src/assets/img/backgound-footer.jpg");
-  height: 300px;
+.footer, .push{
   width: 100%;
+  padding: 20px;
   text-align: center;
   color: white;
+  background-color: #00796B;
+  margin-top: auto;
+  position: sticky;
 }
 
-.container.footer {
-  padding-top: 80px;
-}
 
 button {
   padding: 10px;
@@ -56,3 +59,8 @@ button {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .content {
+    min-height: 52.2%;
+  }
+}

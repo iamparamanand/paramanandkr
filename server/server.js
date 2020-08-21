@@ -1,3 +1,4 @@
+const debug = require("debug")("node-angular");
 var express = require('express');
 var app = express();
 const path = require('path');

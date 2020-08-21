@@ -1,7 +1,13 @@
-/* .bg-img {
-  background-image: url('/assets/img/Background.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.container {
+  color: #ffffff;
+  padding: 25px 0px;
+}
+
+.page-title {
+  font-family: 'Fredoka One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+}

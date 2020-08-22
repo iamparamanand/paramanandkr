@@ -37,7 +37,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAaIC5KxieUPKcu_o5ISS3Qe0pMxOzjAhQ'
+      apiKey: 'AIzaSyAEC6B4J0GOt_tQxGTzD7_E-d4UoySarIc'//'AIzaSyAaIC5KxieUPKcu_o5ISS3Qe0pMxOzjAhQ'
     }),
     AppRoutingModule,
     RouterModule.forRoot(appRoutes)

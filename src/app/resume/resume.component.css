@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-.container {
+/* .container {
   color: #ffffff;
   padding: 25px 0px;
+} */
+
+
+.container {
+  background-color: rgb(242, 248, 248);
+  color: #000000;
+  padding: 25px 10px;
+  opacity: 1;
+  border-radius: 12px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .page-title {
@@ -10,4 +21,8 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 3px;
+}
+
+hr {
+  border-top: 3px solid #eff307;
 }

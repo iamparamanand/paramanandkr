@@ -31,6 +31,7 @@
     "jquery": "^3.5.1",
     "mongodb": "^3.6.0",
     "mongoose": "^5.10.0",
+    "ng2-pdf-viewer": "^6.3.2",
     "popper.js": "^1.14.3",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",

@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.css']
 })
 export class ResumeComponent implements OnInit {
+  pdfsrc="assets/files/Paramanand_Resume.pdf"
 
   constructor() { }
 

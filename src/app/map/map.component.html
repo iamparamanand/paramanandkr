@@ -1,3 +1,11 @@
 <div class="container">
   <div class="page-title"><h1>Map</h1></div>
+  <hr>
+  <!--Google map-->
+  <div class="map-view">
+    <agm-map [latitude]="lat" [longitude]="lng">
+      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+  </div>
+  <!--Google Maps-->
 </div>

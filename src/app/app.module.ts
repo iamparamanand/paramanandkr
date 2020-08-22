@@ -11,6 +11,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { MapComponent } from './map/map.component';
 import { ContactComponent } from './contact/contact.component';
 import { Routes, RouterModule } from '@angular/router';
+import { AgmCoreModule } from '@agm/core';
 
 const appRoutes: Routes = [
   { path: '',  component: HomeComponent },
@@ -35,6 +36,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAaIC5KxieUPKcu_o5ISS3Qe0pMxOzjAhQ'
+    }),
     AppRoutingModule,
     RouterModule.forRoot(appRoutes)
   ],
